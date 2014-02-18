@@ -19,6 +19,7 @@ var etter = require('etter');
 
 function Test() {
   // bind etter to our current object as 'define'
+  // this binding is required to make etter work, so don't forget it
   var define = etter.bind(this);
 
   // the actual values behind the getters and setters
@@ -64,6 +65,7 @@ class Test
   constructor: ->
     
     # bind etter to our current object as 'define'
+    # this binding is required to make etter work, so don't forget it
     define = etter.bind @
 
     # the actual values behind the getters and setters
@@ -104,6 +106,7 @@ class Test
   ->
 
     # bind etter to our current object as 'define'
+    # this binding is required to make etter work, so don't forget it
     define = etter.bind @
 
     # the actual values behind the getters and setters
