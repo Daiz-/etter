@@ -1,6 +1,6 @@
 {
   "name": "etter",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Simpler getters and setters.",
   "author": "Daiz <taneli.vatanen@gmail.com>",
   "license": "MIT",
