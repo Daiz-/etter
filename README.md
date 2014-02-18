@@ -12,8 +12,9 @@ $ npm install etter
 
 ## Examples
 
+#### JavaScript
+
 ```javascript
-// JavaScript
 var etter = require('etter');
 
 function Test() {
@@ -54,8 +55,9 @@ test.endTime = 1500;
 test.duration; // => 1000
 ```
 
+#### CoffeeScript
+
 ```coffeescript
-# CoffeeScript
 etter = require 'etter'
 
 class Test
@@ -93,8 +95,9 @@ test.endTime = 1500
 test.duration # => 1000
 ```
 
+#### LiveScript
+
 ```livescript
-# LiveScript
 require! \etter
 
 class Test
