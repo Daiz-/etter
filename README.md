@@ -1,6 +1,6 @@
-# etter - Simpler getters/setters
+# etter - Simpler getter/setters
 
-Writing getters and setters in JavaScript is pretty verbose and boilerplate-y. **etter** is a small module to make things simpler and nicer.
+Writing getters and setters in JavaScript is pretty verbose and boilerplate-y. **etter** is a small module for Node.js to make things simpler and nicer. Works nicely with plain JavaScript as well as [CoffeeScript](http://coffeescript.org/) and [LiveScript](http://livescript.net/).
 
 ## Installation
 
@@ -81,12 +81,12 @@ class Test
     # define startTime and endTime with getter/setters
     define 'startTime', {
       get: -> _startTime
-      set: (num) -> _startTime = num ; update num
+      set: (num) -> _startTime = num; update num
     }
 
     define 'endTime', {
       get: -> _endTime
-      set: (num) -> _endTime = num ; update num
+      set: (num) -> _endTime = num; update num
     }
 
 test = new Test()
@@ -101,7 +101,6 @@ test.duration # => 1000
 require! \etter
 
 class Test
-  
   ->
 
     # bind etter to our current object as 'define'
@@ -122,7 +121,7 @@ class Test
     # define start-time and end-time with getter/setters
     define \start-time,
       get: -> _start-time
-      set: -> _start-time := it ; update it
+      set: -> _start-time := it; update it
 
     define \end-time,
       get: -> _end-time
