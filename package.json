@@ -1,0 +1,28 @@
+{
+  "name": "etter",
+  "version": "0.0.1",
+  "description": "Simpler getters and setters.",
+  "author": "Daiz <taneli.vatanen@gmail.com>",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "LiveScript": "~1.2.0",
+    "shelljs": "~0.2.6"
+  },
+  "scripts": {
+    "prepublish": "lsc make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Daiz-/etter.git"
+  },
+  "keywords": [
+    "livescript",
+    "coffeescript",
+    "get",
+    "set",
+    "getter",
+    "setter"
+  ]
+}
